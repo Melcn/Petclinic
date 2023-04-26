@@ -16,14 +16,14 @@ export class AppComponent implements OnInit{
     
   }
 
-  clickMoins(){
-    if(this.count > -10){
+  More(){
+    if(this.count > -100){
       this.count--;
     }  
   }
 
-  clickPlus(){
-    if(this.count < 10){
+  Less(){
+    if(this.count < 100){
     this.count++;
     }
   }
